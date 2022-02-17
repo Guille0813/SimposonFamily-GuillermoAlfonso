@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+body{
+    background-color: cyan;
+
+}
+.encabezado{
+    background-image: url(./imagenes/fondo/logoEncabezado.png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.encabezadoLista{
+    position: absolute;
+    top: 310px;
+    display: inline;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 7em ;
+}header nav ul li a{
+    
+}
+.imagenMarge{
+    margin: 1em 1em 1em 1em;
+}
+.imagenMarge2{
+    position: relative;
+    left: 5em;
+    height: 350px;
+    width: 300px;
+}
+.imagenMarge1{
+    position: relative;
+    left: 0,5em;
+    height: 350px;
+    width: 300px;
+}
+.imagenMarge3{
+    position: relative;
+    left: 15em;
+    height: 350px;
+    width: 300px;
+}
+.imagenLisa{
+    margin: 1em 1em 1em 1em;
+}
+.imagenLisa1{
+    position: relative;
+    left: 0,5em;
+    height: 350px;
+    width: 300px;
+    }
+.imagenLisa2{
+    position: relative;
+    left: 7em;
+    height: 350px;
+    width: 300px;
+}
+.imagenLisa3{
+    position: relative;
+    left: 17em;
+    height: 350px;
+    width: 300px;
+}
+.imagenHomero{
+    margin: 1em 1em 1em 1em;
+}
+.imagenHomero1{
+    position: relative;
+    left: 0,5em;
+    height: 350px;
+    width: 300px;
+    }
+.imagenHomero2{
+    position: relative;
+    left: 7em;
+    height: 350px;
+    width: 300px;
+}
+.imagenHomero3{
+    position: relative;
+    left: 17em;
+    height: 350px;
+    width: 300px;
+    }
+.imagenBart{
+    margin: 1em 1em 1em 1em;
+}
+.imagenBart1{
+    position: relative;
+    left: 0,5em;
+    height: 350px;
+    width: 300px;
+    }
+.imagenBart2{
+    position: relative;
+    left: 7em;
+    height: 300px;
+    width: 300px;
+}
+.imagenBart3{
+    position: relative;
+    left: 17em;
+    height: 300px;
+    width: 300px;
+    }
+    .imagenMaggie{
+        margin: 1em 1em 1em 1em;
+    }
+    .imagenMaggie1{
+        position: relative;
+        left: 0,5em;
+        height: 350px;
+        width: 300px;
+        }
+    .imagenMaggie2{
+        position: relative;
+        left: 7em;
+        height: 300px;
+        width: 300px;
+    }
+    .imagenMaggie3{
+        position: relative;
+        left: 17em;
+        height: 300px;
+        width: 300px;
+        }
+.personaje{
+    background-color: black;
+}
+h1{
+    position:relative;
+    left: 450px;
+    font-size: 40px;
+    color: blanchedalmond;
+}
+section ul{
+    display: flex;
+    list-style: none;
+}
+section ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 7em;
+}
+section ul li a{
+    position: relative;
+    top: 16px ;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+}
+h2{
+    background-color: black;
+    position:relative;
+    
+    font-size: 25px;
+    font-family: sans-serif;
+    color: blanchedalmond;
+}
+section p{
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
+.frasesMarge{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
+.frasesHomero{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
+.frasesBart{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
+#formulario{
+    border: solid;
+    
+}
+form{
+    position: relative;
+    margin: 10px 10px 10px 10px;
+}
+#pie{
+    background-color: cornflowerblue;
+    display: flex;
+    }
+h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: cornsilk;
+    position: relative;
+    left: 1em;
+}
+footer div{
+    position: relative;
+    left: 500px;
+    
+    
+}
+#logoInsta{
+    height: 50px;
+    width: 50px;
+
+}
+#logotwitter{
+    position: relative;
+    left: 2em;
+    height: 50px;
+    width: 50px;
+}
+*/
+body{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 7% 2% 5% auto 9% 7% 20% 10% 10% 3%;
+    /*background-color: aqua;*/
+}
+.encabezado{
+    background-image: url(./imagenes/fondo/fondoCelular.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.encabezadoLista{
+    justify-content: space-around;
+    align-content: flex-start;
+    display: grid;
+    width: 100%;
+   /* grid-template-columns: 20% 20% 20% 20% 20%;*/
+    grid-template-rows:20% 20% 20% 20% 20%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    justify-content: start;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.encabezadoLista1{
+    justify-self: center;
+}
+.personaje{
+    justify-self: center;
+}
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    
+}
+.personajeSeccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    justify-self: center;
+}
+.imagenBart{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+    "primero"
+    "segundo"
+    "tercero";
+    grid-template-rows: 50% 25% 25% ;
+    
+    justify-items: center;
+    align-items: center;
+    
+}
+.imagenBart1{
+    grid-area: primero;
+    width: 70%;
+    height: 100%;
+
+}
+.imagenBart2{
+   grid-area: segundo;
+   width: 50%;
+    height: 80%;
+}
+.imagenBart3{
+    grid-area: tercero;
+    width: 50%;
+    height: 80%;
+}
+.caracteristicas{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+
+}
+
+p{
+    margin: 10px 10px 10px 10px;
+
+
+}
+h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-self: center;
+}
+.fras{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 20% 80% ;
+    justify-items: center;
+}
+.enemigos{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 10% 50% 40%;
+    justify-items: center;
+    padding: 5px 5px 5px 5px;
+}
+.enemigos_imagen{
+    width: 60%;
+    height: 80%;
+}
+.Amores{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 20% 80% ;
+    justify-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: black;
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+
+
+}
+footer{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    background-color: black;
+
+
+}
+h3{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-self: center;
+}
+#logoInsta{
+    height: 50px;
+    width: 50px;
+
+}
+#logotwitter{
+    position: relative;
+    left: 2em;
+    height: 50px;
+    width: 50px;
+}
+.inicioBody{
+    display: grid;
+    grid-template-rows: 2% auto 2%;
+    background-image: url(./imagenes/fondo/fondoCelular.jpg);
+}
+.inicioTitulo{
+    font-size: 45px;
+    color: yellow;
+    background-color: black;
+}
+@media all and (min-width:1024px){
+    body{
+        background-color: burlywood;
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-rows: 10% 2% 2% 25 9% 10% 20% 10% 10% 3%;
+    }
+    .encabezado{
+        background-image: url(./imagenes/fondo/logoEncabezado.png);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+        .encabezadoLista{
+            display: grid;
+            width: 100%;
+            grid-template-columns:20% 20% 20% 20% 20%;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-style: normal;
+            color: black;
+            font-weight: bold;
+            justify-content: start;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        h1{
+            font-size: 70px;
+            font-family: sans-serif;
+            font-style: normal;
+            color: black;
+            font-weight: bold;
+            
+        }
+        .personajeSeccion{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: relative;
+            top: 20px;
+            font-size: 30px;
+            font-family: sans-serif;
+            font-style: normal;
+            color: black;
+            font-weight: bold;
+            margin-left: 30px;
+            justify-self: center;
+        }
+        .imagenBart{
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-areas: 
+            "primero segundo"
+            "tercero cuarto";
+            grid-template-rows: 50% 50%;
+            
+            justify-items: center;
+            align-items: center;
+            
+        }
+        .imagenBart1{
+            grid-area: primero tercero;
+            width: 70%;
+            height: 100%;
+        
+        }
+        .imagenBart2{
+           grid-area: segundo;
+           width: 50%;
+            height: 80%;
+        }
+        .imagenBart3{
+            grid-area: cuarto;
+            width: 50%;
+            height: 80%;
+        }
+        .caracteristicas{
+            display: grid;
+            grid-template-rows: 15% 85%;
+            height: 100%;
+            width: 100%;
+            justify-items: center;
+            align-items: center;
+            margin: 10px 10px 10px 10px;
+        
+        }
+        
+        p{
+            margin: 10px 10px 10px 10px;
+            font-size: 30px;
+            font-family: sans-serif;
+            font-style: normal;
+        
+        
+        }
+        h2{
+            font-size: 40px;
+            font-family: sans-serif;
+            font-style: normal;
+            color: black;
+            font-weight: bold;
+            display: flex;
+            justify-self: center;
+        }
+        .fras{
+            display: grid;
+            width: 100%;
+            grid-template-rows: 30% 70% ;
+            justify-items: start;
+            margin-left: 40px;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-style: normal;
+        }
+        .enemigos{
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-areas: 
+            "primero1 segundo2"
+            "tercero3 cuarto4";
+            grid-template-rows:  20% 80%;
+            grid-template-columns: 50% 50%;
+            justify-items: center;
+            padding: 5px 5px 5px 5px;
+        }
+        .enemigos_imagen{
+            grid-area: tercero3;
+            width: 60%;
+            height: 80%;
+        }
+        .enemigos_texto{
+            grid-area: cuarto4;
+            width: 60%;
+            height: 80%;
+            font-size: 25px;
+            font-family: sans-serif;
+            font-style: normal;
+
+        }
+        .Amores{
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-rows: 20% 80% ;
+            justify-items: center;
+            font-size: 30px;
+            font-family: sans-serif;
+            font-style: normal;
+            color: black;
+        }
+        .boton{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-items: center;
+        }
+        form{
+            width: 100%;
+            margin: 20px 20px 20px 20px;
+        }
+        footer{
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-columns: 50% 50%;
+            background-color: black;
+        }
+        h3{
+            font-size: 25px;
+            font-family: sans-serif;
+            font-style: normal;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-self: center;
+        }
+        #logoInsta{
+            height: 50px;
+            width: 50px;
+        
+        }
+        #logotwitter{
+            position: relative;
+            left: 2em;
+            height: 50px;
+            width: 50px;
+        }
+        .inicioBody{
+            display: grid;
+            grid-template-rows: 2% auto 5%;
+            background-image: url(./imagenes/fondo/fondoCelular.jpg);
+        }
+        .imagenInicio{
+            display: grid;
+            grid-template-columns: 30% 40% 30%;
+            grid-template-rows: 50% 50%;
+            grid-template-areas:
+            "inicio1 inicio2 inicio3"
+            "inicio4 inicio5" ;
+            justify-items: center;
+            align-items: center;
+        }
+        .inicioTitulo{
+            font-size: 45px;
+            color: yellow;
+            background-color: black;
+            justify-self: center;
+        }
+        .inicioPie{
+            width: 100%;
+            height: 100%;
+        }
+        a{
+            font-size: 25px;
+            justify-self: center;
+            font-family: sans-serif;
+            font-style: normal;
+            color: black;
+            font-weight: bold;
+            
+        }
+}
