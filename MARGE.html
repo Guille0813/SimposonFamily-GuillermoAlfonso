@@ -1,113 +1,3 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="../style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header class="encabezado">
-        <nav>
-            <ul class="encabezadoLista">
-                <li><a href="./MAGGIE.html">MAGGIE</a></li>
-                <li><a href="./LISA.html">LISA</a></li>
-                <li><a href="./BART.html">BART</a></li>
-                <li><a href="#">MARGE</a></li>
-                <li><a href="./HOMERO.html">HOMERO</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="personaje">
-        <h1>MARGE</h1>   
-    </div>
-    <section>
-        <ul  class="personajeSeccion">
-            <li>
-                <a href="#" id="carac_marge">Caracteristicas</a>
-            </li>
-            <li>
-                <a href="#" id="frases_marge">Frases</a>
-            </li>
-            <li>
-                <a href="#" id="Enemigos_marge">Enemigos</a>
-            </li>
-            <li>
-                <a href="#" id="Amores_marge">Amores</a>
-            </li>
-        </ul>  
-    </section>
-    <div class="imagenMarge">
-        <img class="imagenMarge1" src="../imagenes/MARGE/marge.png" alt="Marge">
-        <img class="imagenMarge2" src="../imagenes/MARGE/margeNena.jpg" alt="margeNena">
-        <img class="imagenMarge3" src="../imagenes/MARGE/margeVieja.jpg" alt="margeVieja">
-    </div>
-    <section class="caracteristicas" >
-        <h2 id="carac_marge">Caracteristicas</h2>
-         <p class="caract_texto">Marge representa el papel de madre trabajadora, cariñosa, paciente y devota, normalmente despreciada por sus hijos y cuyo marido no la escucha.</p>
-    </section>
-    <section class="fras">
-        <h2 id="frases_marge">Mejores Frases</h2>
-        <ol class="frasesMarge">
-             <li>¡Mmmhh!</li>
-             <li>Cuando encuentres monedas en la nieve no la malgastes, espera a ver si llueve</li>
-        </ol>
-    </section>
-    <section class="enemigos">
-        <h2 id="Enemigos_marge">Enemigos</h2>
-        <p>Marge no tiene enemigos</p>
-    </section>
-    <section class="Amores">
-        <h2 id="Amores_marge">Amores</h2>
-        <img class="amoresHomero" src="./imagenes/HOMERO/Homer_Simpson.png  " alt="amoresHomero">
-        <p class="amoresTexto">
-            <a href="./HOMERO.html">Homero</a> 
-        </p>   
-      </section>
-      <section>
-        <form action="" method="" enctype="">
-            <fieldset>
-                <legend>Consultas</legend>
-                <div>
-                    <select name="campoPersonajes" id="Personajes">
-                        <option value="disabled selected">Selecciones Personaje</option>
-                        <option value="MAGGIE">MAGGIE</option>
-                        <option value="MARGE">MARGE</option>
-                        <option value="LISA">LISA</option>
-                        <option value="HOMERO">HOMERO</option>
-                        <option value="BART">BART</option>
-                    </select>
-                </div>
-                <br>
-                <div>
-                    <input type="email" name="" id="" placeholder="Introduzca su Mail">
-                </div>
-                <br>
-                <div>
-                    <input type="text" name="" id="" placeholder="Su consulta">
-                </div>
-                <br>
-                <div>
-                    <input type="number" name="" id="" placeholder="WPP">
-                </div>
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
-            </fieldset>
-        </form>
-
-      </section>
-    <footer id="pie">
-        <h3>Puedes conocer mas</h3>
-        <div>
-            <img id="logoInsta" src="../imagenes/LOGOS/instagram.png" alt="instagram" width="100px">
-            <img id="logotwitter" src="../imagenes/LOGOS/twitter.jfif" alt="twitter" width="100px">
-        </div>
-    </footer>
-
-</body>
-</html>-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -117,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
      crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -140,82 +31,83 @@
                 </li>
               </ul>
         </header>
-        <h1 class="bg-black text-white text-center" >Marge</h1>
-        <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Caracteristicas</a>
-            <a href="#" class="list-group-item list-group-item-action">Frases</a>
-            <a href="#" class="list-group-item list-group-item-action">Enemigos</a>
-            <a href="#" class="list-group-item list-group-item-action">Amores</a>
+        <h1 class="bg-black text-white text-center " >Marge Bubbie</h1>
+        <div class="row list-group menu-simpsons">
+          <a href="#" class="col-md-3 list-group-item list-group-item-action active" aria-current="true">Caracteristicas</a>
+          <a href="#" class="col-md-3 list-group-item list-group-item-action">Frases</a>
+          <a href="#" class="col-md-3 list-group-item list-group-item-action">Enemigos</a>
+          <a href="#" class="col-md-3 list-group-item list-group-item-action">Amores</a>
         </div>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./imagenes/MARGE/marge.png" class="d-block w-100 h-25" alt="marge">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/MARGE/margeJoven.jfif" class="d-block w-100" alt="margeJoven">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/MARGE/margeVieja.jpg" class="d-block w-100" alt="margeVieja">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body ">
+        
+        <div class="card">
+            <div class="card-body card-caracteristicas">
               <h3 class="card-title bg-black text-white text-center">Caracteristicas</h3>
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="row carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/MARGE/marge.png" class="d-block w-100 img-carrusel" alt="marge">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/MARGE/margeJoven.jfif" class="d-block w-100 img-carrusel" alt="margeJoven">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/MARGE/margeVieja.jpg" class="d-block w-100 img-carrusel" alt="margeVieja">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
               <p class="card-text">
                 Marge representa el papel de madre trabajadora, cariñosa, paciente y devota, normalmente despreciada por sus hijos y cuyo marido no la escucha.
               </p>          
             </div>
         </div>
-        <div class=""></div>
+        <div class="frases-simpsons">
             <h3 class="text-center bg-black text-white">Frases</h3>
-            <ul class="list-group">
+            <ul class="list-group lista-frases">
                <li class="list-group-item">Cuando encuentres monedas en la nieve no la malgastes, espera a ver si llueve</li>
                <li class="list-group-item">¡Mmmhh!</li>
             </ul>
-        <div>
+        <div class="enemigos-marge1">
             <h3 class="bg-black text-center text-white">Enemigos</h3>
-            <div class="card" style="width: 18rem;">
+            <div class="row card justify-content-center enmigos-marge2">
                     
                   <p class="card-text">
-                      Marge no tiene enemgos
+                      Marge no tiene enemigos
                   </p>
                 </div>
             </div>
 
         </div>
-        <div>
+        <div class="amores-bart-homero-marge">
             <h3 class="text-center text-white bg-black">Amores</h3>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+                <div class="row carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="row carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./imagenes/MARGE/Arti_Ziff.png" class="d-block w-100" alt="Arti_Ziff">
+                    <img src="./imagenes/MARGE/Arti_Ziff.png" class="d-block w-100 img-carrusel" alt="Arti_Ziff">
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="text-black">Arti</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./imagenes/MARGE/Jacques_Brunswick.png" class="d-block w-100" alt="Jacques_Brunswick">
+                    <img src="./imagenes/MARGE/Jacques_Brunswick.png" class="d-block w-100 img-carrusel" alt="Jacques_Brunswick">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Jacques_Brunswick</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./imagenes/HOMERO/Homer_Simpson.png" class="d-block w-100" alt="Homero">
+                    <img src="./imagenes/HOMERO/Homer_Simpson.png" class="d-block w-100 img-carrusel" alt="Homero">
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="text-black">Homero </h5>
                     </div>
@@ -231,12 +123,43 @@
                   <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div class="amor-desk-marge">
+              <div class="row card-loves-marge justify-content-center" >
+                <img src="./imagenes/MARGE/Arti_Ziff.png" class="card-img-top img-loves " alt="Arti_Ziff">
+                <div class="card-body">
+                  <h3>Arti 
+                    Ziff</h3>
+                  <p class="card-text-loves">
+                    Arti es el compañero de Marge en la preparatoria, luego de la fiesta de graduacion el se sobrepasa con ella. Marge se enoja y le da una bofetada.
+                  </p>
+                </div>
+              </div>
+              <div class="row card-loves-marge justify-content-center" >
+                <img src="./imagenes/MARGE/Jacques_Brunswick.png" class="card-img-top img-loves " alt="Jacques_Brunswick">
+                <div class="card-body">
+                  <h3>Jacques Brunswick</h3>
+                  <p class="card-text-loves"> 
+                    Homero le regala a Marge una bola de boliche, ella se ofende y se enoja. Entonces marge va probar jugar al local de bolos.
+                    Jacques conoceme a Marge en un local de bolos, ambos se sienten atraidos. 
+                  </p>
+                </div>
+              </div>
+              <div class="row card-loves-marge justify-content-center" >
+                <img src="./imagenes/HOMERO/Homer_Simpson.png" class="card-img-top img-loves  " alt="Homer">
+                <div class="card-body">
+                  <h3>Homero Simpsosns</h3>
+                  <p class="card-text-loves">
+                    <a class="nav-link" href="./HOMERO.html">Ver mas</a>
+                  </p>
+                </div>
+              </div>
+            </div>
            
 
         </div>  
         
         <footer class="row bg-info" >
-            <p class="text-white text-center col-8">Puedes conocer mas</p>
+            <p class="text-white text-center col-8 texto-pie">Puedes conocer mas</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="col-2 bi bi-instagram" viewBox="0 0 16 16">
                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
               </svg>
