@@ -1,4 +1,245 @@
 body {
-  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 2% 3% 7% 30% 20% 22% auto 2%;
+      grid-template-rows: 2% 3% 7% 30% 20% 22% auto 2%;
+  background-image: url(/imagenes/fondo/fondoCelular.jpg);
+}
+
+body header .dropdown {
+  display: -ms-grid;
+  display: grid;
+}
+
+body .personaje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+body .personaje h1 {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+body .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .menu li {
+  font-size: medium;
+  font-family: sans-serif;
+  color: black;
+  margin: 5px;
+}
+
+body .caracteristicas {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 5% 45% 50%;
+      grid-template-rows: 5% 45% 50%;
+}
+
+body .caracteristicas_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+body .caracteristicas_titulo h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+body .caracteristicas .carousel .parte-img .carousel-item .img-carrusel {
+  width: 50vh;
+  height: 50vh;
+  margin: 5px;
+}
+
+body .caracteristicas .card-text p {
+  font-size: medium;
+  font-family: sans-serif;
+  color: black;
+  margin: 5px;
+}
+
+body .frases_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+body .frases_titulo h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+body .frases_lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .frases_lista li {
+  font-size: medium;
+  font-family: sans-serif;
+  color: black;
+  margin: 5px;
+}
+
+body .enemigos {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 10% auto;
+      grid-template-rows: 10% auto;
+}
+
+body .enemigos_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+body .enemigos_titulo h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+body .enemigos_detalle .img-enemigos {
+  width: 40vh;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 50px;
+}
+
+body .enemigos_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+body .enemigos_titulo h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+body .enemigos_texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 10px;
+  background-color: white;
+}
+
+body .enemigos_texto p {
+  font-size: medium;
+  font-family: sans-serif;
+  color: black;
+  margin: 20px;
+}
+
+body .amores_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+body .amores_titulo h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+body .amores_carta_img {
+  background-image: url(/imagenes/fondo/fondoCelular.jpg);
+}
+
+body .amores_carta_detalle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .amores_carta_detalle h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+body .amores_carta_detalle p {
+  font-size: medium;
+  font-family: sans-serif;
+  color: black;
+  margin: 5px;
+}
+
+body .texto-pie {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

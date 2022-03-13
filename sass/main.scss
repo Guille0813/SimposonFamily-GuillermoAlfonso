@@ -1,3 +1,184 @@
+
 body{
-    background-color: red;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 3% 7% 30% 20% 22% auto 2%;
+    background-image:  url(/imagenes/fondo/fondoCelular.jpg);
+    header{
+        .dropdown{
+            display: grid;
+        }
+    }
+    .personaje{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        background-color: black;
+        h1{
+            font-size: 2.5rem;
+            font-family: sans-serif;
+            color: white;
+        }
+    }
+    .menu{
+        display:flex ;
+        position: relative;
+        flex-direction: column;
+        li{
+            font-size: medium;
+            font-family: sans-serif;
+            color: black;
+            margin: 5px;
+        }
+    }
+    .caracteristicas{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 5% 45% 50%;
+        &_titulo{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            background-color: black;
+            h3{
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            color: white;
+            }
+        }
+        .carousel{
+            .parte-img{
+                .carousel-item{
+                    .img-carrusel{
+                        width: 50vh;
+                        height: 50vh;
+                        margin: 5px;
+                    }
+                }
+            }
+        }
+        .card-text{
+            p{
+                font-size: medium;
+                font-family: sans-serif;
+                color: black;
+                margin: 5px;  
+            }
+        }
+    }
+    .frases{
+        &_titulo{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            background-color: black;
+            h3{
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            color: white;
+            }
+        }
+        &_lista{
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            li{
+                font-size: medium;
+                font-family: sans-serif;
+                color: black;
+                margin: 5px;
+            }
+        }
+    }
+    .enemigos{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% auto;
+        &_titulo{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            background-color: black;
+            h3{
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            color: white;
+            }
+        }
+        &_detalle{
+            .img-enemigos{
+                width: 40vh;
+                height: 40vh;
+                display: flex;
+                position: relative;
+                left: 50px;
+            }
+
+            }
+            &_titulo{
+                display: flex;
+                position: relative;
+                justify-content: center;
+                background-color: black;
+                h3{
+                font-size: 1.5rem;
+                font-family: sans-serif;
+                color: white;
+                }
+            }
+            &_texto{
+                display: flex;
+                position: relative;
+                margin: 10px;
+                background-color: white;
+                p{
+                    font-size: medium;
+                    font-family: sans-serif;
+                    color: black;
+                    margin: 20px;
+                }
+            }
+    }
+    .amores{
+        &_titulo{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            background-color: black;
+            h3{
+             font-size: 1.5rem;
+             font-family: sans-serif;
+             color: white;
+            }
+        }
+        &_carta{
+            &_img{
+                background-image: url(/imagenes/fondo/fondoCelular.jpg);
+            }
+            &_detalle{
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                h3{
+                    font-size: 1.5rem;
+                    font-family: sans-serif;  
+                }
+                p{
+                    font-size: medium;
+                    font-family: sans-serif;
+                    color: black;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    .texto-pie{
+        font-size: 1rem;
+    }
 }
+
+

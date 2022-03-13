@@ -10,46 +10,40 @@
      <link rel="stylesheet" href="./sass/main.css">
     <title>Document</title>
 </head>
-<body class="container-fluid">
-        <header class="row bg-warning">
-            <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="./BART.html">Bart</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./MAGGIE.html">Maggie</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Lisa</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./HOMERO.html">Homero</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./MARGE.html">Marge</a>
-                </li>
-              </ul>
+<body >
+        <header class="chicos">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             Personajes
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Bart</a></li>
+              <li><a class="dropdown-item" href="#">Maggie</a></li>
+              <li><a class="dropdown-item" href="#">Lisa </a></li>
+              <li><a class="dropdown-item" href="#">Marge</a></li>
+              <li><a class="dropdown-item" href="#">Homero </a></li>
+            </ul>
+          </div>
         </header>
-        <h1 class="bg-black text-white text-center text-lg-center" >Lisa Simpsosns</h1>
-        <div class="row list-group menu-simpsons">
-            <a href="#" class="col-md-3 list-group-item list-group-item-action active" aria-current="true">Caracteristicas</a>
-            <a href="#" class="col-md-3 list-group-item list-group-item-action">Frases</a>
-            <a href="#" class="col-md-3 list-group-item list-group-item-action">Enemigos</a>
-            <a href="#" class="col-md-3 list-group-item list-group-item-action">Amores</a>
+        <div class="personaje"><h1>Lisa Simpsosns</h1></div>
+        <div class="menu">
+          <li>Caracteristicas</li>
+          <li>Frases</li>
+          <li>Enemigos</li>
+          <li>Amores</li>
         </div>
-        <div class="card" >
-          <div class="card-body card-caracteristicas">
-              <h3 class="card-title bg-black text-white text-center">Caracteristicas</h3>
+        <div class="card-body caracteristicas">
+              <div class="caracteristicas_titulo"><h3>Caracteristicas</h3></div>
               <div id="carouselExampleControls" class="row carousel slide" data-bs-ride="carousel">
                 <div class="row carousel-inner parte-img">
                   <div class="carousel-item active">
-                    <img src="./imagenes/LISA/Lisa_Simpson.png" class="d-block w-100 img-carrusel" alt="Lisa_Simpson">
+                    <img src="./imagenes/LISA/Lisa_Simpson.png" class="d-block img-carrusel" alt="Lisa_Simpson">
                   </div>
                   <div class="carousel-item">
-                    <img src="./imagenes/LISA/Lisa_gritando.jfif" class="d-block w-100 img-carrusel" alt="Lisa_gritando">
+                    <img src="./imagenes/LISA/Lisa_gritando.jfif" class="d-block img-carrusel" alt="Lisa_gritando">
                   </div>
                   <div class="carousel-item">
-                    <img src="./imagenes/LISA/Lisa_loser.jfif" class="d-block w-100 img-carrusel" alt="Lisa_loser">
+                    <img src="./imagenes/LISA/Lisa_loser.jfif" class="d-block img-carrusel" alt="Lisa_loser">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -61,37 +55,40 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-              <p class="card-text">
+              <div class="card-text">
+                <p>
                 Lisa es, en el tiempo actual de la serie, una sobresaliente estudiante de primaria por eso es una de las mejores. Le encanta leer, escribir sus pensamientos más profundos en un diario y realizar tareas escolares y edificantes
-              </p>          
-          </div>
-        </div>
-        <div class="frases-simpsons">
-            <h3 class="text-center bg-black text-white">Frases</h3>
-            <ul class="list-group lista-frases">
-               <li class="list-group-item">Las personas que acusan a otras de ser gays con frecuencia encubren su propia homosexualidad latente</li>
-               <li class="list-group-item">¡Usted está mal! ¡Todo el maldito sistema está mal!</li>
-               <li class="list-group-item">Antes de cantar el Himno Nacional me gustaría decir que el fútbol utiliza mal recursos que podrían servir para la educación y las artes</li>
+                </p>  
+              </div>        
+       </div>
+        <div class="frases">
+            <div class="frases_titulo"><h3>Frases</h3></div>
+            <ul class="frases_lista">
+               <li class="frases_lista_1">Las personas que acusan a otras de ser gays con frecuencia encubren su propia homosexualidad latente</li>
+               <li class="frases_lista_1">¡Usted está mal! ¡Todo el maldito sistema está mal!</li>
+               <li class="frases_lista_1">Antes de cantar el Himno Nacional me gustaría decir que el fútbol utiliza mal recursos que podrían servir para la educación y las artes</li>
             </ul>
         </div>
-        <div class="enemigos-simpsons">
-            <h3 class="bg-black text-center text-white">Enemigos</h3>
-            <div class="card card-enemigos">
+        <div class="enemigos">
+           <div class="enemigos_titulo"><h3>Enemigos</h3></div> 
+           <div class="enemigos_detalle">
                 <img src="./imagenes/LISA/francine.png" class="card-img-top img-enemigos" alt="Francine">
-                <div class="card-body">
+                <div class="enemigos_detalle_titulo">
                   <h3>Francine</h3>
-                  <p class="card-text">
-                    Francine se convirtió en el conejillo de indias de Lisa. Ella comprobó que el aroma que despedían los nerds (mezcla de remedio para el asma, puntas de lápices y químicos) atraía a los abusones, y provocaba que golpeen a quienes tuvieran ese aroma
-                  </p>
                 </div>
-            </div>
+                <div class="enemigos_detalle__texto">
+                    <p>
+                      Francine se convirtió en el conejillo de indias de Lisa. Ella comprobó que el aroma que despedían los nerds (mezcla de remedio para el asma, puntas de lápices y químicos) atraía a los abusones, y provocaba que golpeen a quienes tuvieran ese aroma
+                    </p>
+                </div>
+           </div>
         </div>
-        <div class="amores-simpsons">
-            <h3 class="text-center text-white bg-black">Amores</h3>
-            <div class="card card-amores" >
-                <img src="./imagenes/LISA/Nelson.png" class="card-img-top img-nelson" alt="Nelson">
-                <div class="card-body carta-nelson">
-                <h3>Nelson</h3>
+        <div class="amores">
+            <div class="amores_titulo"><h3>Amores</h3></div>
+            <div class="card amores_carta" >
+                <div class="amores_carta_img"><img src="./imagenes/LISA/Nelson.png" class="nelson" alt="Nelson"></div> 
+                <div class="card-body amores_carta_detalle">
+                  <h3>Nelson</h3>
                   <p class="card-text">
                     Su padre lo abandonó (diciendo: "Voy a comprar unos cigarrillos"). Su madre apenas le toma en cuenta y se ha sugerido varias veces que trabaja como bailarina exótica.
                   </p>            
