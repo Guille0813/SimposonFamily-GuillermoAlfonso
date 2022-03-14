@@ -1,0 +1,11 @@
+.menu{
+    display:flex ;
+    position: relative;
+    flex-direction: column;
+    li{
+        font-size: medium;
+        font-family: sans-serif;
+        color: black;
+        margin: 5px;
+    }
+}

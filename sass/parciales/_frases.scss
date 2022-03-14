@@ -1,0 +1,24 @@
+.frases{
+    &_titulo{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        background-color: black;
+        h3{
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        color: white;
+        }
+    }
+    &_lista{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        li{
+            font-size: medium;
+            font-family: sans-serif;
+            color: black;
+            margin: 5px;
+        }
+    }
+}
