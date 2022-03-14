@@ -1,3 +1,4 @@
+@import "./variables";
 .enemigos{
     display: grid;
     width: 100%;
@@ -17,8 +18,8 @@
     }
     &_detalle{
         .img-enemigos{
-            width: 2vh;
-            height: 2vh;
+            width: 40vh;
+            height: 40vh;
             display: flex;
             position: relative;
             left: 50px;
@@ -27,11 +28,10 @@
             display: flex;
             position: relative;
             justify-content: center;
-            background-color: black;
             h3{
-            font-size: 1.5rem;
-            font-family: sans-serif;
-            color: white;
+            font-size: $t_titulo;
+            font-family: $f_texto;
+            color: black;
             }
         }
         &_texto{
@@ -41,10 +41,73 @@
             background-color: white;
             p{
                 font-size: medium;
-                font-family: sans-serif;
+                font-family: $f_texto;
                 color: black;
                 margin: 20px;
             }
         }
     }
+}
+@media all and (min-width:1024px){
+    .enemigos{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% auto;
+        &_titulo{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            background-color: black;
+            h3{
+            font-size: 1.8rem;
+            font-family: sans-serif;
+            color: white;
+            }
+        }
+        &_detalle{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 10% auto;
+            grid-template-areas: 
+            "ene1 ene2"
+            "ene3 ene4";
+            .img-enemigos{
+                display: grid;
+                grid-area: ene3;
+                width: 40vh;
+                height: 40vh;
+                align-self: start;
+            }
+            &_titulo{
+                display: grid;
+                grid-area: ene2;
+                justify-content: center;
+                h3{
+                font-size: 1.8rem;
+                font-family: $f_texto;
+                color: black;
+                }
+            }
+            &_texto{
+                display: grid;
+                width: 100%;
+                grid-area: ene4;
+                margin: 10px;
+                background-color: white;
+                height: 80%;
+                width: 90%;
+                p{
+                    display: grid;
+                    grid-area: ene4;
+                    font-size: 1.5rem;
+                    font-family: $f_texto;
+                    color: black;
+                    margin: 20px;
+                }
+            }
+        }
+    }
+
 }

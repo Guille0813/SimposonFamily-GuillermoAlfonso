@@ -4,3 +4,11 @@ body{
     grid-template-rows: 2% 3% 7% 30% 20% 22% auto 2%;
     background-image:  url(/imagenes/fondo/fondoCelular.jpg);
 }
+@media all and (min-width:1024px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 3% 3% 30% 15% 22% auto 3%;
+        background-image:  url(/imagenes/fondo/fondoCelular.jpg);
+    }
+}

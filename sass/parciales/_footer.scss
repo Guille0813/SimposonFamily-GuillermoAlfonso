@@ -1,3 +1,11 @@
 .texto-pie{
     font-size: 1rem;
 }
+@media all and (min-width:1024px){
+    footer{
+        .texto-pie{
+            font-size: 1.5rem;
+            align-self: end;
+        }  
+    }
+}

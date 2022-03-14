@@ -1,3 +1,4 @@
+@import "./variables";
 .frases{
     &_titulo{
         display: flex;
@@ -5,10 +6,10 @@
         justify-content: center;
         background-color: black;
         h3{
-        font-size: 1.5rem;
-        font-family: sans-serif;
-        color: white;
-        }
+            font-size: $t_titulo;
+            font-family: $f_texto;
+            color: $blanco;
+            }
     }
     &_lista{
         display: flex;
@@ -16,9 +17,38 @@
         flex-direction: column;
         li{
             font-size: medium;
-            font-family: sans-serif;
+            font-family: $f_texto;
             color: black;
             margin: 5px;
+        }
+    }
+}
+@media all and (min-width:1024px){
+    .frases{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:13% auto ;
+        &_titulo{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            background-color: black;
+            h3{
+                font-size: 1.8rem;
+                font-family: $f_texto;
+                color: $blanco;
+                }
+        }
+        &_lista{
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            li{
+                font-size: 1.5rem;
+                font-family: $f_texto;
+                color: black;
+                margin: 5px;
+            }
         }
     }
 }
