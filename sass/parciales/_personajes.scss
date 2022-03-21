@@ -1,11 +1,24 @@
+/*@import "./variables";
 .personaje{
     display: flex;
     position: relative;
     justify-content: center;
-    background-color: black;
+    background-color: red ;
     h1{
         font-size: 2.5rem;
         font-family: sans-serif;
         color: white;
+    }
+}*/
+
+@import "./variables";
+
+@each $name, $color, $display, $position, $j-c in $personaje {
+    .personaje-#{$name}{
+        background-color: $color;
+        display: $display;
+        position: $position;
+        justify-content: $j-c
+        ;
     }
 }

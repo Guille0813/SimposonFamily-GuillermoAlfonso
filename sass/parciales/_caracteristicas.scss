@@ -1,5 +1,5 @@
 @import "./variables";
-.caracteristicas{
+/*.caracteristicas{
     display: grid;
     width: 100%;
     height: 100%;
@@ -84,4 +84,51 @@
         }
     }
 
+}*/
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+} 
+@mixin partes ($row, $colunm) {
+    grid-template-rows: $row;
+    grid-template-columns: $colunm;    
+}
+.caracteristicas{
+    &_movel{
+        display: grid;
+        @include sizes(100%, 100% );
+        @include partes( 7% 53% 40%, 100% );
+        &_titulo{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            background-color: black;
+            h3{
+            font-size: $t_titulo;
+            font-family:$f_texto ;
+            color: white;
+            }
+        }
+        .carousel{
+            .parte-img{
+                .carousel-item{
+                    .img-carrusel{
+                        @include sizes(45vh, 45vh );
+                        margin: 5px;
+                    }
+                }
+            }
+        }
+        .card-text{
+            p{
+                font-size: medium;
+                font-family: sans-serif;
+                color: black;
+                margin: 5px;  
+            }
+        }
+    }
+    &_desk{
+        display: none;
+    }
 }

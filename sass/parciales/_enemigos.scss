@@ -48,11 +48,15 @@
         }
     }
 }
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+    }  
+
 @media all and (min-width:1024px){
     .enemigos{
         display: grid;
-        width: 100%;
-        height: 100%;
+        @include sizes(100%,100% );
         grid-template-columns: 100%;
         grid-template-rows: 10% auto;
         &_titulo{
@@ -60,10 +64,11 @@
             position: relative;
             justify-content: center;
             background-color: black;
-            h3{
-            font-size: 1.8rem;
-            font-family: sans-serif;
-            color: white;
+            .h3{
+                font-size: 1.8rem;
+                font-family: sans-serif;
+                color: white
+
             }
         }
         &_detalle{
@@ -76,18 +81,17 @@
             .img-enemigos{
                 display: grid;
                 grid-area: ene3;
-                width: 40vh;
-                height: 40vh;
+                @include sizes(40vh, 40vh );
                 align-self: start;
             }
             &_titulo{
                 display: grid;
                 grid-area: ene2;
                 justify-content: center;
-                h3{
-                font-size: 1.8rem;
-                font-family: $f_texto;
-                color: black;
+                background-color: aliceblue;
+                .francine{
+                @extend .h3;
+                font-weight: bold;
                 }
             }
             &_texto{

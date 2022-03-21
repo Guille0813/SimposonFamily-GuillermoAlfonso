@@ -1,4 +1,12 @@
 @import "./variables";
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+} 
+@mixin partes ($row, $colunm) {
+    grid-template-rows: $row;
+    grid-template-columns: $colunm;    
+}
 .amores{
     &_titulo{
             display: flex;
@@ -31,6 +39,26 @@
                 }
             }
     }
+}
+.amores-bart-homero-marge{
+    display: grid;
+    @include sizes(100%,100% );
+    @include partes(15% auto, 100% );
+    &_titulo{
+       background-color: black; 
+       font-size: 1.5rem;
+       color: white;
+    }
+    .carousel{
+     .carousel-item{
+         .img-carrusel{
+             @include sizes(40vh, 40vh )
+         }
+     }
+    }
+}
+.amor-desk-bart{
+    display: none;
 }
 @media all and (min-width:1024px){
     .amores{
